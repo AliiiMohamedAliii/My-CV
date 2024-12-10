@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -177,6 +178,18 @@
 
     <div class="cv-section">
       <h2>Projects</h2>
+
+      <h3>MUSIC STREAMING PLATFORM DEVELOPMENT</h3>
+      <p><strong>Personal Project – Cairo, EG</strong><br>February 2024</p>
+      <p>Designed and developed a music streaming platform with a focus on user authentication, playlist management, and advanced music discovery. Created a robust database system to facilitate seamless user experience, personalized recommendations, and efficient data management. Integrated a comprehensive set of features for immersive music exploration, leveraging skills in SQL, data analysis, and database design (ERD, schema).</p>
+
+      <h3>ANALYZING HEALTHCARE DATA</h3>
+      <p><strong>Personal Project – Cairo, EG</strong><br>January 2024</p>
+      <p>This project emphasized the importance of data in enhancing patient outcomes, optimizing costs, and improving service quality in healthcare. By visualizing these complex datasets, I was able to uncover critical insights that can drive smarter decision-making in healthcare, ultimately contributing to more effective resource allocation.</p>
+
+      <h3>CHURN RATE ANALYSIS</h3>
+      <p><strong>Personal Project – Cairo, EG</strong><br>October 2023</p>
+      <p>In today's competitive business landscape, understanding customer churn is essential for sustainability and growth. Churn rate, the percentage of customers who stop using a product or service, directly impacts revenue and profitability. By leveraging Power BI, this project provides actionable insights into churn trends, high-risk segments, and root causes, enabling businesses to implement data-driven strategies for improved customer retention.</p>
 
       <h3>EGYPTIAN LEAGUE PERFORMANCE ANALYSIS</h3>
       <p><strong>Personal Project – Cairo, EG</strong><br>April 2023</p>
