@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -112,6 +111,21 @@
       padding-left: 20px;
     }
 
+    .contact-link {
+      display: flex;
+      align-items: center;
+      margin-bottom: 10px;
+      font-size: 18px;
+      color: #E0FFE0;
+      text-decoration: none;
+    }
+
+    .contact-link img {
+      width: 24px;
+      height: 24px;
+      margin-right: 10px;
+    }
+
     /* Smooth scroll */
     html {
       scroll-behavior: smooth;
@@ -187,15 +201,16 @@
         <li>Data Analysis in SQL (from Data Camp)</li>
       </ul>
     </div>
-  </div>
 
-  <script>
-    // Function to show CV section
-    document.getElementById('viewCvBtn').onclick = function () {
-      document.getElementById('cv').classList.add('show');
-      document.getElementById('intro').style.display = 'none'; // Hide intro
-    };
-  </script>
-
-</body>
-</html>
+    <div class="cv-section">
+      <h2>Contact Me</h2>
+      <a href="mailto:alimohamedali2033@gmail.com" class="contact-link">
+        <img src="https://img.icons8.com/color/48/000000/gmail.png" alt="Gmail">alimohamedali2033@gmail.com
+      </a>
+      <a href="https://www.linkedin.com/in/ali-mohamed-2820312b0/" target="_blank" class="contact-link">
+        <img src="https://img.icons8.com/color/48/000000/linkedin.png" alt="LinkedIn">linkedin.com/in/ali-mohamed-2820312b0
+      </a>
+      <a href="https://github.com/AliiiMohamedAliii" target="_blank" class="contact-link">
+        <img src="https://img.icons8.com/ios-filled/50/ffffff/github.png" alt="GitHub">github.com/AliiiMohamedAliii
+      </a>
+      <a
