@@ -71,9 +71,9 @@
     #cv {
       background-color: #222;
       padding: 40px;
-      display: none;
+      display: none; /* Hidden initially */
       opacity: 0;
-      animation: fadeIn 2s forwards;
+      animation: slideDown 1s forwards; /* Slide down animation */
       transform: translateY(-50px);
       height: 80vh;
       overflow-y: auto;
@@ -119,12 +119,18 @@
       font-size: 18px;
       color: #E0FFE0;
       text-decoration: none;
+      transition: transform 0.3s ease, color 0.3s ease;
     }
 
     .contact-link img {
       width: 24px;
       height: 24px;
       margin-right: 10px;
+    }
+
+    .contact-link:hover {
+      transform: scale(1.1);
+      color: #00FF00;
     }
 
     /* Smooth scroll */
@@ -146,11 +152,22 @@
       }
     }
 
+    @keyframes slideDown {
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
     .show {
       display: block !important;
       opacity: 1 !important;
       animation: fadeIn 1.5s forwards;
       transform: translateY(0);
+    }
+
+    .hide {
+      display: none !important;
     }
   </style>
 </head>
@@ -202,42 +219,43 @@
     <div class="cv-section">
       <h2>Career Achievements</h2>
       <ul>
-        <li>Data analysis using Excel and Power BI. (from planet of skills academy)  </li>
+        <li>Data analysis using Excel and Power BI. (from planet of skills academy)</li>
         <li>Dealing with ChatGPT (from Data Camp)</li>
         <li>Data science using Python and SQL. (from planet of skills academy)</li>
-        <li>Completing AI workshop. (from DotPy)</li>
-        <li>CCNAv7: Introduction to networks. (from Cisco)</li>
-        <li>CCNAv7: Switching, Routing and Wireless Essentials. (from Cisco)</li>
-        <li>CCNAv7: Enterprise Networking, Security and Automation. (from Cisco)</li>
-        <li> How to Think Like a Data Scientist to Become One. (from 365 Data Science)</li>
-        <li> R Programming. (from 365 Data Science)</li>
-        <li>Communicating Data Insights. (from Data Camp)</li>
-        <li>Data analysis in SQL. (from Data Camp)</li>
+        <li>Completing AI workshop. (from Udemy)</li>
       </ul>
     </div>
 
-    <div class="cv-section">
+<div class="cv-section">
       <h2>Contact</h2>
       <a href="mailto:alimohamedali2033@gmail.com" class="contact-link">
-        <img src="https://img.icons8.com/ios/50/ffffff/mail.png" alt="Email">
+        <img src="https://img.icons8.com/ios/50/ffffff/email.png" alt="Email">
         alimohamedali2033@gmail.com
       </a>
-      <a href="https://www.linkedin.com/in/ali-mohamed-93188523b/" class="contact-link">
+      <a href="https://www.linkedin.com/in/ali-mohamed-2820312b0/" class="contact-link">
         <img src="https://img.icons8.com/ios/50/ffffff/linkedin.png" alt="LinkedIn">
         LinkedIn Profile
       </a>
-      <a href="tel:+201271528310" class="contact-link">
-        <img src="https://img.icons8.com/ios/50/ffffff/phone.png" alt="Phone">
-        +20 127 152 8310
+      <a href="https://www.instagram.com/aliiiimohamedd/" class="contact-link">
+        <img src="https://img.icons8.com/ios/50/ffffff/instagram.png" alt="Instagram">
+        Instagram Profile
+      </a>
+      <a href="https://github.com/AliiiMohamedAliii" class="contact-link">
+        <img src="https://img.icons8.com/ios/50/ffffff/github.png" alt="GitHub">
+        GitHub Profile
       </a>
     </div>
   </div>
 
+
   <script>
-    document.getElementById("viewCvBtn").addEventListener("click", function() {
-      document.getElementById("cv").classList.add("show");
+    const viewCvBtn = document.getElementById('viewCvBtn');
+    const cvSection = document.getElementById('cv');
+
+    viewCvBtn.addEventListener('click', function() {
+      document.getElementById('intro').classList.add('hide');
+      cvSection.classList.add('show');
     });
   </script>
-
 </body>
 </html>
