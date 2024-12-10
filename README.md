@@ -7,16 +7,17 @@
   <style>
     body {
       font-family: 'Arial', sans-serif;
-      background-color: #f7f7f7;
       margin: 0;
       padding: 0;
+      background-color: #f4f4f9;
       color: #333;
     }
     header {
       background-color: #2C3E50;
       color: white;
-      padding: 30px;
+      padding: 40px 20px;
       text-align: center;
+      border-bottom: 5px solid #3498db;
     }
     header h1 {
       font-size: 36px;
@@ -24,7 +25,13 @@
     }
     header p {
       font-size: 18px;
-      margin: 5px 0;
+      margin-top: 5px;
+    }
+    .links a {
+      color: #3498db;
+      text-decoration: none;
+      margin: 0 10px;
+      font-weight: bold;
     }
     section {
       max-width: 900px;
@@ -38,45 +45,36 @@
       color: #2C3E50;
       margin-top: 0;
       font-size: 28px;
+      border-bottom: 2px solid #3498db;
+      padding-bottom: 10px;
     }
     ul {
       list-style-type: none;
       padding-left: 0;
+      font-size: 16px;
     }
     li {
       margin: 10px 0;
-      font-size: 16px;
     }
     .contact-info p {
       font-size: 16px;
+    }
+    .projects ul {
+      columns: 2;
+      column-gap: 30px;
     }
     footer {
       background-color: #2C3E50;
       color: white;
       text-align: center;
       padding: 15px;
-      position: fixed;
-      width: 100%;
+      position: relative;
       bottom: 0;
+      width: 100%;
     }
     footer p {
       margin: 0;
-    }
-    .links a {
-      color: #3498db;
-      text-decoration: none;
-      font-weight: bold;
-    }
-    .skills, .projects, .education {
-      margin-top: 20px;
-    }
-    .projects ul, .skills ul {
-      columns: 2;
-      column-gap: 20px;
-    }
-    .achievements {
-      font-size: 16px;
-      font-style: italic;
+      font-size: 14px;
     }
   </style>
 </head>
@@ -96,11 +94,11 @@
   <section>
     <h2>About Me</h2>
     <p>
-      I am a passionate Data Scientist and Business Analyst with a strong background in Machine Learning, Data Analysis, and problem-solving. I am always looking for new challenges to apply my skills and help organizations make data-driven decisions.
+      I am a passionate Data Scientist and Business Analyst with expertise in Machine Learning, Data Analysis, and Business Intelligence. I focus on applying data-driven insights to help businesses solve real-world problems and make informed decisions.
     </p>
   </section>
 
-  <section class="education">
+  <section>
     <h2>Education</h2>
     <ul>
       <li><strong>Bachelor of Business Analytics</strong> – Egyptian Russian University, Cairo, EG</li>
@@ -109,7 +107,7 @@
     </ul>
   </section>
 
-  <section class="skills">
+  <section>
     <h2>Skills</h2>
     <ul>
       <li>Python</li>
