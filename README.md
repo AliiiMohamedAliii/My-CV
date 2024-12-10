@@ -165,7 +165,6 @@
 
   <!-- CV Section -->
   <div id="cv" class="cv-content">
-
     <div class="cv-section">
       <h2>About Me</h2>
       <p>I am a passionate developer with experience in Data Science, Machine Learning, and Business Analytics. I enjoy solving complex problems using data and building intelligent systems to drive business success.</p>
@@ -198,32 +197,49 @@
       <h3>SALES PREDICTION MODEL DEVELOPMENT</h3>
       <p><strong>Personal Project – Cairo, EG</strong><br>December 2022</p>
       <p>Developed a sales prediction model using Python, involving data preprocessing (handling missing values, encoding, outlier removal), and exploratory analysis of Sales Amount, Quantity, and Customer Age. Applied Linear Regression, Random Forest Regressor, and SVR for predictive modeling, evaluating performance with MAE, MSE, and R-squared. Created a Streamlit app for real-time sales predictions, deploying the model as sales_model.pkl.</p>
-
     </div>
 
     <div class="cv-section">
       <h2>Career Achievements</h2>
       <ul>
-        <li>CCNAv7: Switching, Routing and Wireless Essentials (from Cisco)</li>
+        <li>Data analysis using Excel and Power BI. (from planet of skills academy)  </li>
         <li>Dealing with ChatGPT (from Data Camp)</li>
-        <li>Data Science in Python (from Data Camp)</li>
-        <li>CCNAv7: Enterprise Networking, Security and Automation (from Cisco)</li>
-        <li>How to Think Like a Data Scientist to Become One (from 365 Data Science)</li>
-        <li>R Programming (from 365 Data Science)</li>
-        <li>Communicating Data Insights (from Data Camp)</li>
-        <li>Data Analysis in SQL (from Data Camp)</li>
+        <li>Data science using Python and SQL. (from planet of skills academy)</li>
+        <li>Completing AI workshop. (from DotPy)</li>
+        <li>CCNAv7: Introduction to networks. (from Cisco)</li>
+        <li>CCNAv7: Switching, Routing and Wireless Essentials. (from Cisco)</li>
+        <li>CCNAv7: Enterprise Networking, Security and Automation. (from Cisco)</li>
+        <li> How to Think Like a Data Scientist to Become One. (from 365 Data Science)</li>
+        <li> R Programming. (from 365 Data Science)</li>
+        <li>Communicating Data Insights. (from Data Camp)</li>
+        <li>Data analysis in SQL. (from Data Camp)</li>
       </ul>
     </div>
 
     <div class="cv-section">
-      <h2>Contact Me</h2>
-      <a href="mailto:alimohamedali2033@gmail.com" class="contact-link">
-        <img src="https://img.icons8.com/color/48/000000/gmail.png" alt="Gmail">alimohamedali2033@gmail.com
+      <h2>Contact</h2>
+      <a href="mailto:alimohamed@example.com" class="contact-link">
+        <img src="https://img.icons8.com/ios/50/ffffff/mail.png" alt="Email">alimohamed@example.com
       </a>
-      <a href="https://www.linkedin.com/in/ali-mohamed-2820312b0/" target="_blank" class="contact-link">
-        <img src="https://img.icons8.com/color/48/000000/linkedin.png" alt="LinkedIn">linkedin.com/in/ali-mohamed-2820312b0
+      <a href="https://www.linkedin.com/in/alimohamed" class="contact-link">
+        <img src="https://img.icons8.com/ios/50/ffffff/linkedin.png" alt="LinkedIn">LinkedIn
       </a>
-      <a href="https://github.com/AliiiMohamedAliii" target="_blank" class="contact-link">
-        <img src="https://img.icons8.com/ios-filled/50/ffffff/github.png" alt="GitHub">github.com/AliiiMohamedAliii
+<a href="https://www.instagram.com/alimohamed" class="contact-link">
+        <img src="https://img.icons8.com/ios/50/ffffff/instagram.png" alt="Instagram">Instagram
       </a>
-      <a
+<a href="https://github.com/alimohamed" class="contact-link">
+        <img src="https://img.icons8.com/ios/50/ffffff/github.png" alt="GitHub">GitHub
+      </a>
+    </div>
+  </div>
+
+  <script>
+    // Scroll to CV section
+    document.getElementById('viewCvBtn').addEventListener('click', function () {
+      document.getElementById('cv').classList.add('show');
+      document.getElementById('intro').style.display = 'none';
+    });
+  </script>
+
+</body>
+</html>
