@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -236,7 +235,7 @@
         <img src="https://img.icons8.com/ios/50/ffffff/email.png" alt="Email">
         alimohamedali2033@gmail.com
       </a>
-      <a href="https://www.linkedin.com/in/ali-mohamed-2820312b0/"class="contact-link">
+      <a href="https://www.linkedin.com/in/ali-mohamed-2820312b0/" class="contact-link">
         <img src="https://img.icons8.com/ios/50/ffffff/linkedin.png" alt="LinkedIn">
         LinkedIn Profile
       </a>
