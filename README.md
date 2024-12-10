@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -221,17 +222,21 @@
         <li>Data analysis using Excel and Power BI. (from planet of skills academy)</li>
         <li>Dealing with ChatGPT (from Data Camp)</li>
         <li>Data science using Python and SQL. (from planet of skills academy)</li>
-        <li>Completing AI workshop. (from Udemy)</li>
+        <li>Completing AI workshop. (from DotPy)</li>
+        <li>CCNAv7: Introduction to networks. (from Cisco)</li>
+        <li>CCNAv7: Switching, Routing and Wireless Essentials. (from Cisco)</li>
+        <li>CCNAv7: Enterprise Networking, Security and Automation. (from Cisco)</li>
+        <li>How to Think Like a Data Scientist to Become One. (from 365 Data Science)</li>
+        <li>R Programming. (from 365 Data Science)</li>
       </ul>
     </div>
-
 <div class="cv-section">
       <h2>Contact</h2>
       <a href="mailto:alimohamedali2033@gmail.com" class="contact-link">
         <img src="https://img.icons8.com/ios/50/ffffff/email.png" alt="Email">
         alimohamedali2033@gmail.com
       </a>
-      <a href="https://www.linkedin.com/in/ali-mohamed-2820312b0/" class="contact-link">
+      <a href="https://www.linkedin.com/in/ali-mohamed-2820312b0/"class="contact-link">
         <img src="https://img.icons8.com/ios/50/ffffff/linkedin.png" alt="LinkedIn">
         LinkedIn Profile
       </a>
@@ -245,7 +250,6 @@
       </a>
     </div>
   </div>
-
 
   <script>
     const viewCvBtn = document.getElementById('viewCvBtn');
