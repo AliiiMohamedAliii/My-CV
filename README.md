@@ -218,26 +218,24 @@
 
     <div class="cv-section">
       <h2>Contact</h2>
-      <a href="mailto:alimohamed@example.com" class="contact-link">
-        <img src="https://img.icons8.com/ios/50/ffffff/mail.png" alt="Email">alimohamed@example.com
+      <a href="mailto:alimohamedali2033@gmail.com" class="contact-link">
+        <img src="https://img.icons8.com/ios/50/ffffff/mail.png" alt="Email">
+        alimohamedali2033@gmail.com
       </a>
-      <a href="https://www.linkedin.com/in/alimohamed" class="contact-link">
-        <img src="https://img.icons8.com/ios/50/ffffff/linkedin.png" alt="LinkedIn">LinkedIn
+      <a href="https://www.linkedin.com/in/ali-mohamed-93188523b/" class="contact-link">
+        <img src="https://img.icons8.com/ios/50/ffffff/linkedin.png" alt="LinkedIn">
+        LinkedIn Profile
       </a>
-<a href="https://www.instagram.com/alimohamed" class="contact-link">
-        <img src="https://img.icons8.com/ios/50/ffffff/instagram.png" alt="Instagram">Instagram
-      </a>
-<a href="https://github.com/alimohamed" class="contact-link">
-        <img src="https://img.icons8.com/ios/50/ffffff/github.png" alt="GitHub">GitHub
+      <a href="tel:+201271528310" class="contact-link">
+        <img src="https://img.icons8.com/ios/50/ffffff/phone.png" alt="Phone">
+        +20 127 152 8310
       </a>
     </div>
   </div>
 
   <script>
-    // Scroll to CV section
-    document.getElementById('viewCvBtn').addEventListener('click', function () {
-      document.getElementById('cv').classList.add('show');
-      document.getElementById('intro').style.display = 'none';
+    document.getElementById("viewCvBtn").addEventListener("click", function() {
+      document.getElementById("cv").classList.add("show");
     });
   </script>
 
