@@ -3,157 +3,199 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ali Mohamed - CV</title>
+  <title>Ali Mohamed - Data Scientist & Business Analyst</title>
   <style>
+    /* General body setup */
     body {
       font-family: 'Arial', sans-serif;
+      background-color: #111;
+      color: #00FF00;
       margin: 0;
       padding: 0;
-      background-color: #f4f4f9;
-      color: #333;
-    }
-    header {
-      background-color: #2C3E50;
-      color: white;
-      padding: 40px 20px;
       text-align: center;
-      border-bottom: 5px solid #3498db;
+      overflow: hidden;
     }
-    header h1 {
-      font-size: 36px;
-      margin: 0;
+
+    /* Intro section */
+    #intro {
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      opacity: 0;
+      transform: translateY(-100px);
+      animation: fadeInUp 2s forwards;
     }
-    header p {
-      font-size: 18px;
-      margin-top: 5px;
-    }
-    .links a {
-      color: #3498db;
-      text-decoration: none;
-      margin: 0 10px;
+
+    h1 {
+      font-size: 60px;
+      color: #00FF00;
       font-weight: bold;
+      margin: 0;
+      opacity: 0;
+      animation: fadeIn 1.5s forwards 0.5s;
     }
-    section {
-      max-width: 900px;
-      margin: 20px auto;
+
+    p {
+      font-size: 24px;
+      color: #00FF00;
+      margin: 20px 0;
+      opacity: 0;
+      animation: fadeIn 2s forwards 1s;
+    }
+
+    /* Button Animation */
+    .btn {
+      font-size: 20px;
+      padding: 15px 30px;
+      background-color: #222;
+      color: #00FF00;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: transform 0.3s ease, background-color 0.3s ease;
+      text-decoration: none;
+      display: inline-block;
+      margin-top: 30px;
+      opacity: 0;
+      animation: fadeIn 2s forwards 1.5s;
+    }
+
+    .btn:hover {
+      background-color: #444;
+      transform: scale(1.1);
+    }
+
+    /* CV Section */
+    #cv {
+      background-color: #222;
+      padding: 40px;
+      display: none;
+      opacity: 0;
+      animation: fadeIn 2s forwards;
+      transform: translateY(-50px);
+      height: 80vh;
+      overflow-y: auto;
+    }
+
+    /* CV Rectangles */
+    .cv-section {
+      background: #333;
       padding: 20px;
-      background-color: #ffffff;
-      border-radius: 8px;
-      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      margin: 20px auto;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+      max-width: 800px;
+      text-align: left;
     }
-    h2 {
-      color: #2C3E50;
-      margin-top: 0;
-      font-size: 28px;
-      border-bottom: 2px solid #3498db;
-      padding-bottom: 10px;
+
+    .cv-section h2 {
+      font-size: 32px;
+      color: #00FF00;
+      margin: 0 0 10px 0;
     }
-    ul {
-      list-style-type: none;
-      padding-left: 0;
-      font-size: 16px;
-    }
-    li {
+
+    .cv-section h3 {
+      font-size: 24px;
+      color: #80FF80;
       margin: 10px 0;
     }
-    .contact-info p {
-      font-size: 16px;
+
+    .cv-section p, .cv-section ul {
+      font-size: 18px;
+      color: #E0FFE0;
+      margin: 10px 0;
     }
-    .projects ul {
-      columns: 2;
-      column-gap: 30px;
+
+    .cv-section ul {
+      padding-left: 20px;
     }
-    footer {
-      background-color: #2C3E50;
-      color: white;
-      text-align: center;
-      padding: 15px;
-      position: relative;
-      bottom: 0;
-      width: 100%;
+
+    /* Smooth scroll */
+    html {
+      scroll-behavior: smooth;
     }
-    footer p {
-      margin: 0;
-      font-size: 14px;
+
+    /* Keyframe animations */
+    @keyframes fadeInUp {
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes fadeIn {
+      to {
+        opacity: 1;
+      }
+    }
+
+    .show {
+      display: block !important;
+      opacity: 1 !important;
+      animation: fadeIn 1.5s forwards;
+      transform: translateY(0);
     }
   </style>
 </head>
 <body>
-  <header>
+
+  <!-- Intro Section -->
+  <div id="intro">
     <h1>Ali Mohamed</h1>
-    <p>Data Scientist | Business Analyst</p>
-    <div class="links">
-      <p>
-        <a href="https://www.linkedin.com/in/ali-mohamed-2820312b0/" target="_blank">LinkedIn</a> |
-        <a href="https://github.com/AliiiMohamedAliii" target="_blank">GitHub</a> |
-        <a href="https://www.instagram.com/aliiiimohamedd/" target="_blank">Instagram</a>
-      </p>
+    <p>Data Scientist & Business Analyst | Transforming Data into Actionable Insights | Driving Business Growth through Analytics and Innovation</p>
+    <a href="javascript:void(0)" class="btn" id="viewCvBtn">Click here to view the CV</a>
+  </div>
+
+  <!-- CV Section -->
+  <div id="cv" class="cv-content">
+
+    <div class="cv-section">
+      <h2>About Me</h2>
+      <p>I am a passionate developer with experience in Data Science, Machine Learning, and Business Analytics. I enjoy solving complex problems using data and building intelligent systems to drive business success.</p>
     </div>
-  </header>
 
-  <section>
-    <h2>About Me</h2>
-    <p>
-      I am a passionate Data Scientist and Business Analyst with expertise in Machine Learning, Data Analysis, and Business Intelligence. I focus on applying data-driven insights to help businesses solve real-world problems and make informed decisions.
-    </p>
-  </section>
+    <div class="cv-section">
+      <h2>Skills</h2>
+      <p>Python, R Programming, SQL, Power BI, Machine Learning, Data Analysis, Excel, Communication, and more.</p>
+    </div>
 
-  <section>
-    <h2>Education</h2>
-    <ul>
-      <li><strong>Bachelor of Business Analytics</strong> – Egyptian Russian University, Cairo, EG</li>
-      <li><strong>Majors:</strong> Business Analytics, Data Science, Data Analytics</li>
-      <li><strong>Expected Graduation:</strong> June 2025</li>
-    </ul>
-  </section>
+    <div class="cv-section">
+      <h2>Projects</h2>
 
-  <section>
-    <h2>Skills</h2>
-    <ul>
-      <li>Python</li>
-      <li>R Programming</li>
-      <li>Power BI</li>
-      <li>SQL</li>
-      <li>Machine Learning</li>
-      <li>Excel</li>
-      <li>Problem-Solving</li>
-      <li>Communication</li>
-      <li>Creativity</li>
-      <li>Team Leading</li>
-    </ul>
-  </section>
+      <h3>EGYPTIAN LEAGUE PERFORMANCE ANALYSIS</h3>
+      <p><strong>Personal Project – Cairo, EG</strong><br>April 2023</p>
+      <p>Developed a Power BI dashboard analyzing Egyptian League data (2000/2001–2023/2024), providing insights into team performance, defensive strength, win/loss ratios, and high-scoring matches. The project helped identify trends, assess the impact of draws, and deliver actionable insights for fans and team management, supporting data-driven decision-making.</p>
 
-  <section class="projects">
-    <h2>Projects</h2>
-    <ul>
-      <li><strong>Music Streaming Platform Development (Inspired by Spotify)</strong> - Designed a personalized music streaming platform with features like user authentication, playlist management, and advanced music discovery.</li>
-      <li><strong>Healthcare Data Analysis</strong> - Visualized healthcare data to identify insights that optimize costs, improve patient outcomes, and enhance service quality.</li>
-      <li><strong>Churn Rate Analysis</strong> - Used Power BI to analyze churn trends and customer retention strategies, improving business sustainability.</li>
-      <li><strong>Egyptian League Performance Analysis</strong> - Developed a Power BI dashboard to analyze Egyptian League data, providing insights into team performance and game outcomes.</li>
-      <li><strong>Sales Prediction Model</strong> - Created a sales prediction model using Python, utilizing algorithms like Linear Regression and Random Forest for predictive analytics.</li>
-    </ul>
-  </section>
+      <h3>SALES PREDICTION MODEL DEVELOPMENT</h3>
+      <p><strong>Personal Project – Cairo, EG</strong><br>December 2022</p>
+      <p>Developed a sales prediction model using Python, involving data preprocessing (handling missing values, encoding, outlier removal), and exploratory analysis of Sales Amount, Quantity, and Customer Age. Applied Linear Regression, Random Forest Regressor, and SVR for predictive modeling, evaluating performance with MAE, MSE, and R-squared. Created a Streamlit app for real-time sales predictions, deploying the model as sales_model.pkl.</p>
 
-  <section>
-    <h2>Career Achievements</h2>
-    <ul>
-      <li>Data Analysis using Excel and Power BI – Planet of Skills Academy</li>
-      <li>Data Science using Python and SQL – Planet of Skills Academy</li>
-      <li>AI Workshop – DotPy</li>
-      <li>CCNAv7: Introduction to Networks – Cisco</li>
-      <li>R Programming – 365 Data Science</li>
-      <li>How to Think Like a Data Scientist – 365 Data Science</li>
-    </ul>
-  </section>
+    </div>
 
-  <section class="contact-info">
-    <h2>Contact Information</h2>
-    <p>Email: alimohamedali2033@gmail.com</p>
-    <p>Phone: +123456789</p>
-  </section>
+    <div class="cv-section">
+      <h2>Career Achievements</h2>
+      <ul>
+        <li>CCNAv7: Switching, Routing and Wireless Essentials (from Cisco)</li>
+        <li>Dealing with ChatGPT (from Data Camp)</li>
+        <li>Data Science in Python (from Data Camp)</li>
+        <li>CCNAv7: Enterprise Networking, Security and Automation (from Cisco)</li>
+        <li>How to Think Like a Data Scientist to Become One (from 365 Data Science)</li>
+        <li>R Programming (from 365 Data Science)</li>
+        <li>Communicating Data Insights (from Data Camp)</li>
+        <li>Data Analysis in SQL (from Data Camp)</li>
+      </ul>
+    </div>
+  </div>
 
-  <footer>
-    <p>&copy; 2024 Ali Mohamed. All Rights Reserved.</p>
-  </footer>
+  <script>
+    // Function to show CV section
+    document.getElementById('viewCvBtn').onclick = function () {
+      document.getElementById('cv').classList.add('show');
+      document.getElementById('intro').style.display = 'none'; // Hide intro
+    };
+  </script>
+
 </body>
 </html>
