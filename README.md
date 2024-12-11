@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -7,8 +8,8 @@
     /* General body setup */
     body {
       font-family: 'Roboto', sans-serif;
-      background: linear-gradient(-45deg,#DADDB1, #ECE3CE, #739072, #6B5B95, #D5A6BD);
-      background-size: 400% 400%;
+      background: linear-gradient(-45deg,#DADDB1, #ECE3CE, #739072, #B5A27F, #D5A6BD);
+      background-size: 700% 700%;
       animation: gradient 15s ease infinite;
       color: #4F6F52; 
       margin: 0;
@@ -41,7 +42,7 @@
 
     h1 {
       font-size: 60px;
-      color: #4F6F52; /* Updated font color */
+      color: #2E3B2E; /* Updated font color */
       font-weight: bold;
       margin: 0;
       opacity: 0;
@@ -50,7 +51,7 @@
 
     p {
       font-size: 24px;
-      color: #4F6F52; /* Updated font color */
+      color: #2E3B2E; /* Updated font color */
       margin: 20px 0;
       opacity: 0;
       animation: fadeIn 2s forwards 1s;
@@ -103,19 +104,19 @@
 
     .cv-section h2 {
       font-size: 32px;
-      color: #4F6F52; 
+      color: #2E3B2E; 
       margin: 0 0 10px 0;
     }
 
     .cv-section h3 {
       font-size: 24px;
-      color: #4F6F52;
+      color: #2E3B2E;
       margin: 10px 0;
     }
 
     .cv-section p, .cv-section ul {
       font-size: 18px;
-      color: #4F6F52;
+      color: #2E3B2E;
       margin: 10px 0;
     }
 
@@ -128,7 +129,7 @@
       align-items: center;
       margin-bottom: 10px;
       font-size: 18px;
-      color: #4F6F52;
+      color: #2E3B2E;
       text-decoration: none;
       transition: transform 0.3s ease, color 0.3s ease;
     }
@@ -141,7 +142,7 @@
 
     .contact-link:hover {
       transform: scale(1.1);
-      color: #4F6F52; /* Updated hover color */
+      color: #2E3B2E; /* Updated hover color */
     }
 
     /* Smooth scroll */
@@ -215,7 +216,7 @@
 
     <div class="cv-section">
       <h2>Skills</h2>
-      <p>Python, R Programming, SQL, Power BI, Machine Learning, Data Analysis, Excel, Communication, and more.</p>
+      <p>Python, R Programming, SQL, Power BI, Machine Learning, Problem Solving, Excel, Communication, English (advanced level), Creativity, Team Leading .</p>
     </div>
 
     <div class="cv-section">
@@ -246,14 +247,17 @@
       <h2>Career Achievements</h2>
       <ul>
         <li>Data analysis using Excel and Power BI. (from planet of skills academy)</li>
-        <li>Dealing with ChatGPT (from Data Camp)</li>
         <li>Data science using Python and SQL. (from planet of skills academy)</li>
-        <li>Completing AI workshop. (from DotPy)</li>
-        <li>CCNAv7: Introduction to networks. (from Cisco)</li>
-        <li>CCNAv7: Switching, Routing and Wireless Essentials. (from Cisco)</li>
-        <li>CCNAv7: Enterprise Networking, Security and Automation. (from Cisco)</li>
-        <li>How to Think Like a Data Scientist to Become One. (from 365 Data Science)</li>
-        <li>R Programming. (from 365 Data Science)</li>
+        <li>Completing AI workshop (from DotPy)</li>
+        <li>Dealing with ChatGPT (from Data Camp)</li>
+        <li>Data Science in Python (from Data Camp)</li>
+        <li>Communicating data insights (fom Data Camp)</li>
+        <li>Data analysis in SQL (from Data Camp)</li>
+        <li>R Programming (from 365 Data Science)</li>
+        <li>How to Think Like a Data Scientist to Become One (from 365 Data Science)</li>
+        <li>CCNAv7: Introduction to networks (from Cisco)</li>
+        <li>CCNAv7: Switching, Routing and Wireless Essentials (from Cisco)</li>
+        <li>CCNAv7: Enterprise Networking, Security and Automation (from Cisco)</li>
       </ul>
     </div>
 <div class="cv-section">
