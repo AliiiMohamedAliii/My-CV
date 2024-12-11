@@ -83,7 +83,7 @@
 
     /* CV Section */
     #cv {
-      background-color: #FFFFFF;
+      background-color: #D3D3D3;
       padding: 40px;
       display: none; /* Hidden initially */
       opacity: 0;
@@ -106,7 +106,7 @@
 
     .cv-section h2 {
       font-size: 32px;
-      color: #FFFFFF; 
+      color: #D8B84E; 
       margin: 0 0 10px 0;
     }
 
