@@ -204,6 +204,8 @@
 <body>
   <!-- Intro Section -->
   <div id="intro">
+    <!-- Profile Image above the name -->
+    <img id="profileImage" src="https://drive.google.com/uc?export=view&id=1dmnJRT588oNAg5Mi6d82jJaO8gihvdbT" >
     <h1>Ali Mohamed</h1>
     <p>Data Scientist & Business Analyst | Transforming Data into Actionable Insights | Driving Business Growth through Analytics and Innovation</p>
     <a href="javascript:void(0)" class="btn" id="viewCvBtn">Click here to view the CV</a>
