@@ -7,7 +7,7 @@
     /* General body setup */
     body {
       font-family: 'Roboto', sans-serif;
-      background: linear-gradient(-45deg,#DADDB1, #ECE3CE, #739072, #B5A27F, #D5A6BD);
+      background: linear-gradient(-45deg, #4B6A4B, #6A7B50, #6F4F32, #585858, #4C5C3B);
       background-size: 700% 700%;
       animation: gradient 15s ease infinite;
       color: #4F6F52; 
@@ -17,15 +17,18 @@
       overflow: hidden;
     }
 
-    /* Keyframe animations for gradient */
     @keyframes gradient {
-      0% {
-        background-position: 0% 50%;
-      }
-      100% {
-        background-position: 100% 50%;
-      }
-    }
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
 
     /* Intro section */
     #intro {
@@ -41,7 +44,7 @@
 
     h1 {
       font-size: 60px;
-      color: #2E3B2E; /* Updated font color */
+      color: #FFFFFF; /* Updated font color */
       font-weight: bold;
       margin: 0;
       opacity: 0;
@@ -50,7 +53,7 @@
 
     p {
       font-size: 24px;
-      color: #2E3B2E; /* Updated font color */
+      color: #FFFFFF; /* Updated font color */
       margin: 20px 0;
       opacity: 0;
       animation: fadeIn 2s forwards 1s;
@@ -80,7 +83,7 @@
 
     /* CV Section */
     #cv {
-      background-color: #ECE3CE;
+      background-color: #FFFFFF;
       padding: 40px;
       display: none; /* Hidden initially */
       opacity: 0;
@@ -92,7 +95,7 @@
 
     /* CV Rectangles */
     .cv-section {
-      background: #ECE3CE;
+      background: #4B6A4B;
       padding: 20px;
       margin: 20px auto;
       border-radius: 10px;
@@ -103,19 +106,19 @@
 
     .cv-section h2 {
       font-size: 32px;
-      color: #2E3B2E; 
+      color: #FFFFFF; 
       margin: 0 0 10px 0;
     }
 
     .cv-section h3 {
       font-size: 24px;
-      color: #2E3B2E;
+      color: #FFFFFF;
       margin: 10px 0;
     }
 
     .cv-section p, .cv-section ul {
       font-size: 18px;
-      color: #2E3B2E;
+      color: #FFFFFF;
       margin: 10px 0;
     }
 
@@ -128,7 +131,7 @@
       align-items: center;
       margin-bottom: 10px;
       font-size: 18px;
-      color: #2E3B2E;
+      color: #FFFFFF;
       text-decoration: none;
       transition: transform 0.3s ease, color 0.3s ease;
     }
@@ -141,7 +144,7 @@
 
     .contact-link:hover {
       transform: scale(1.1);
-      color: #2E3B2E; /* Updated hover color */
+      color: #FFFFFF; /* Updated hover color */
     }
 
     /* Smooth scroll */
