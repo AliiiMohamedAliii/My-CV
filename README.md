@@ -1,18 +1,31 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Ali Mohamed - Data Scientist & Business Analyst</title>
   <style>
     /* General body setup */
     body {
-      font-family: 'Arial', sans-serif;
-      background-color: #111;
-      color: #00FF00;
+      font-family: 'Roboto', sans-serif;
+      background: linear-gradient(-45deg,#DADDB1, #ECE3CE, #739072, #6B5B95, #D5A6BD);
+      background-size: 400% 400%;
+      animation: gradient 15s ease infinite;
+      color: #4F6F52; 
       margin: 0;
       padding: 0;
       text-align: center;
       overflow: hidden;
+    }
+
+    /* Keyframe animations for gradient */
+    @keyframes gradient {
+      0% {
+        background-position: 0% 50%;
+      }
+      100% {
+        background-position: 100% 50%;
+      }
     }
 
     /* Intro section */
@@ -29,7 +42,7 @@
 
     h1 {
       font-size: 60px;
-      color: #00FF00;
+      color: #4F6F52; /* Updated font color */
       font-weight: bold;
       margin: 0;
       opacity: 0;
@@ -38,7 +51,7 @@
 
     p {
       font-size: 24px;
-      color: #00FF00;
+      color: #4F6F52; /* Updated font color */
       margin: 20px 0;
       opacity: 0;
       animation: fadeIn 2s forwards 1s;
@@ -49,7 +62,7 @@
       font-size: 20px;
       padding: 15px 30px;
       background-color: #222;
-      color: #00FF00;
+      color: #ECE3CE; 
       border: none;
       border-radius: 5px;
       cursor: pointer;
@@ -68,7 +81,7 @@
 
     /* CV Section */
     #cv {
-      background-color: #222;
+      background-color: #ECE3CE;
       padding: 40px;
       display: none; /* Hidden initially */
       opacity: 0;
@@ -80,7 +93,7 @@
 
     /* CV Rectangles */
     .cv-section {
-      background: #333;
+      background: #ECE3CE;
       padding: 20px;
       margin: 20px auto;
       border-radius: 10px;
@@ -91,19 +104,19 @@
 
     .cv-section h2 {
       font-size: 32px;
-      color: #00FF00;
+      color: #4F6F52; 
       margin: 0 0 10px 0;
     }
 
     .cv-section h3 {
       font-size: 24px;
-      color: #80FF80;
+      color: #4F6F52;
       margin: 10px 0;
     }
 
     .cv-section p, .cv-section ul {
       font-size: 18px;
-      color: #E0FFE0;
+      color: #4F6F52;
       margin: 10px 0;
     }
 
@@ -116,7 +129,7 @@
       align-items: center;
       margin-bottom: 10px;
       font-size: 18px;
-      color: #E0FFE0;
+      color: #4F6F52;
       text-decoration: none;
       transition: transform 0.3s ease, color 0.3s ease;
     }
@@ -129,7 +142,7 @@
 
     .contact-link:hover {
       transform: scale(1.1);
-      color: #00FF00;
+      color: #4F6F52; /* Updated hover color */
     }
 
     /* Smooth scroll */
@@ -168,10 +181,25 @@
     .hide {
       display: none !important;
     }
+
+    /* Path animation */
+    path {
+      stroke-dasharray: 500;
+      stroke-dashoffset: 500;
+      animation: draw 2s linear forwards;
+      fill: none;
+      stroke: #4F6F52;
+      stroke-width: 3;
+    }
+
+    @keyframes draw {
+      to {
+        stroke-dashoffset: 0;
+      }
+    }
   </style>
 </head>
 <body>
-
   <!-- Intro Section -->
   <div id="intro">
     <h1>Ali Mohamed</h1>
