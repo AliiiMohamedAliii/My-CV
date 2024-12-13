@@ -1,8 +1,9 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ali Mohamed Ali- Data Scientist & Business Analyst</title>
+  <title>Ali Mohamed - Data Scientist & Business Analyst</title>
   <style>
     /* General body setup */
     body {
@@ -44,16 +45,16 @@
 
     h1 {
       font-size: 60px;
-      color: #FFFFFF; /* Updated font color */
+      color: #2E3B2E; /* Updated font color */
       font-weight: bold;
       margin: 0;
       opacity: 0;
       animation: fadeIn 1.5s forwards 0.5s;
     }
-    
+
     p {
       font-size: 24px;
-      color: #FFFFFF; /* Updated font color */
+      color: #2E3B2E; /* Updated font color */
       margin: 20px 0;
       opacity: 0;
       animation: fadeIn 2s forwards 1s;
@@ -83,7 +84,7 @@
 
     /* CV Section */
     #cv {
-      background-color: #D3D3D3;
+      background-color: #ECE3CE;
       padding: 40px;
       display: none; /* Hidden initially */
       opacity: 0;
@@ -106,19 +107,19 @@
 
     .cv-section h2 {
       font-size: 32px;
-      color: #D8B84E; 
+      color: #2E3B2E; 
       margin: 0 0 10px 0;
     }
 
     .cv-section h3 {
       font-size: 24px;
-      color: #FFFFFF;
+      color: #2E3B2E;
       margin: 10px 0;
     }
 
     .cv-section p, .cv-section ul {
       font-size: 18px;
-      color: #FFFFFF;
+      color: #2E3B2E;
       margin: 10px 0;
     }
 
@@ -131,7 +132,7 @@
       align-items: center;
       margin-bottom: 10px;
       font-size: 18px;
-      color: #FFFFFF;
+      color: #2E3B2E;
       text-decoration: none;
       transition: transform 0.3s ease, color 0.3s ease;
     }
@@ -144,7 +145,7 @@
 
     .contact-link:hover {
       transform: scale(1.1);
-      color: #FFFFFF; /* Updated hover color */
+      color: #2E3B2E; /* Updated hover color */
     }
 
     /* Smooth scroll */
@@ -204,7 +205,7 @@
 <body>
   <!-- Intro Section -->
   <div id="intro">
-    <h1>Ali Mohamed Ali</h1>
+    <h1>Ali Mohamed</h1>
     <p>Data Scientist & Business Analyst | Transforming Data into Actionable Insights | Driving Business Growth through Analytics and Innovation</p>
     <a href="javascript:void(0)" class="btn" id="viewCvBtn">Click here to view the CV</a>
   </div>
