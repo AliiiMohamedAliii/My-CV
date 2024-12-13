@@ -257,6 +257,7 @@
         <li>Data analysis in SQL (from Data Camp)</li>
         <li>R Programming (from 365 Data Science)</li>
         <li>How to Think Like a Data Scientist to Become One (from 365 Data Science)</li>
+        <li>Power BI job simulation (PwC Switzerland)</li>
         <li>CCNAv7: Introduction to networks (from Cisco)</li>
         <li>CCNAv7: Switching, Routing and Wireless Essentials (from Cisco)</li>
         <li>CCNAv7: Enterprise Networking, Security and Automation (from Cisco)</li>
